@@ -4,31 +4,68 @@
    Author's custom styles
    ========================================================================== */
 
+body{
+		background-color: #f5f5f5;
+		font-family: "Vollkorn", serif;
+}
+a{
+	cursor:pointer;
+}
+a:hover{
+	text-decoration: none;
+}
 .header-link{
     padding: 1em;
 }
-.slogan{ 
-    background: url(../img/Bobinage.png) no-repeat center;
-    /*http://www.color-hex.com/color/d9f0fa*/
+.background-slogan{ 
+    background: url(../img/moteur.png) no-repeat center;
+		-webkit-background-size: cover;
     background-size: cover;
-    width: 100%;
-}
-.title-slogan{
-    font-size: 2em;
-    padding-top: 10em;
-    text-align: center;
-    text-shadow: 1px 2px 10px white;
-}
-
-.chevron{
+    opacity: 0.5;
     position: absolute;
-    bottom: 10px;
+		z-index: -1;
+		height: 100%;
+    right: 0;
+    left: 0;
+}
+.text-slogan{
+    font-size: 200%;
+    padding-top: 20%;
     text-align: center;
-    color:white;
-    width: 100%;
 }
-.chevron-span {
-    font-size: 4em;
+.template .history{
+	padding-top: 10%;
+	margin-bottom: 10%;
 }
-
-
+.template .how-work-motor{
+	padding-top: 0;
+	text-align: center;
+	margin-bottom: 10%;
+}
+.template .history img {
+	border-radius: 5%;
+	height: 180px;
+	width: 200px;
+}
+.trust{
+	background: white;
+}
+.trust .title{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	font-size: 150%;
+	font-weight: 400;
+	padding: 1.5%;
+}
+.find-us{
+	margin: 50px;
+	position: absolute;
+	background: url(../img/findus-mapbackground.png) 0 0 no-repeat;
+}
+.find-us iframe{
+	border: 0;
+	margin: 75px;
+	height: 400px;
+	width: 457px;
+}
