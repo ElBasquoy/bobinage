@@ -1,5 +1,9 @@
  jQuery(document).ready(function($) {
     $(".slogan").height($(window).height());
+		$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
  });
 
 window.onresize = resize;

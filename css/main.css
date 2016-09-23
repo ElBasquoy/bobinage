@@ -19,14 +19,25 @@ a:hover{
 }
 .background-slogan{ 
     background: url(../img/moteur.png) no-repeat center;
-		-webkit-background-size: cover;
+	-webkit-background-size: cover;
     background-size: cover;
     opacity: 0.5;
     position: absolute;
-		z-index: -1;
-		height: 100%;
+	z-index: -1;
+	height: 100%;
     right: 0;
     left: 0;
+}
+.background-contact{
+    background: url(../img/schema.png) no-repeat center fixed;
+	-webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+	height: 700px;
+    position: absolute;
+	z-index: -1;
+    right: 0;
+    left: 0;	
 }
 .text-slogan{
     font-size: 200%;
@@ -34,7 +45,18 @@ a:hover{
     text-align: center;
 }
 .template .history{
-	padding-top: 10%;
+	padding: 10% 0;
+	background: white;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc
+}
+.template .history img {
+	border-radius: 5%;
+	height: 180px;
+	width: 200px;
+}
+.template .activity{
+	padding: 10% 0;
 	margin-bottom: 10%;
 }
 .template .how-work-motor{
@@ -42,24 +64,26 @@ a:hover{
 	text-align: center;
 	margin-bottom: 10%;
 }
-.template .history img {
-	border-radius: 5%;
-	height: 180px;
-	width: 200px;
-}
 .trust{
 	background: white;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding: 8% 0 10% 0;
 }
 .trust .title{
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
 	text-align: center;
 	font-size: 150%;
 	font-weight: 400;
-	padding: 1.5%;
+	padding-bottom: 5%;
+}
+.patners{
+	padding-top: 20px;
+}
+.partners >div{
+	padding: 10px;
 }
 .find-us{
-	margin: 50px;
+	margin: 6% 0 0 10%;
 	position: absolute;
 	background: url(../img/findus-mapbackground.png) 0 0 no-repeat;
 }
