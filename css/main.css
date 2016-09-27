@@ -8,14 +8,26 @@ body{
 		background-color: #f5f5f5;
 		font-family: "Vollkorn", serif;
 }
+header{
+	background: #2b3036;
+	padding: 1.5em 1em;
+}
+header .btn-block {
+	color: white;
+	font-size: 115%;
+}
+header .btn-block:hover {
+	color: green;
+	text-decoration: none;
+}
+header .active, header .active:hover{
+	color: green;
+}
 a{
 	cursor:pointer;
 }
 a:hover{
 	text-decoration: none;
-}
-.header-link{
-    padding: 1em;
 }
 .background-slogan{ 
     background: url(../img/moteur.png) no-repeat center;
