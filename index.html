@@ -30,7 +30,17 @@
 	<header class="clearfix">
 		<div class="hidden-xs">
 			<div class="col-sm-offset-3 col-sm-2">
-				<a id="history" class="btn btn-link btn-block">HISTOIRE</a>
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Action
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Action</a></li>
+					<li><a href="#">Another action</a></li>
+					<li><a href="#">Something else here</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="#">Separated link</a></li>
+				</ul>
+				<!--<a id="history" class="btn btn-link btn-block">SOCIÉTÉ</a>-->
 			</div>
 			<div class="col-sm-2">
 				<a class="btn btn-link btn-block">ACTIVITES</a>
@@ -77,8 +87,13 @@
 						Un savoir faire transmis de génération en génération depuis 1954
 					</div>
 				</div>
+				<div class="item">
+					<img src="img/atex.jpg" alt="moteur" style="height: 400px; width: 100%">
+					<div class="carousel-caption">
+						Certification en cours
+					</div>
+				</div>									
 			</div>
-
 			<!-- Controls -->
 			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -103,44 +118,48 @@
 					<img src="img/drapeau-basque.png" alt="france" />
 				</div>
 				<div class="col-sm-6">
-					<div>
-						Une entreprise familiale
+					<div class="title">
+						Une entreprise familiale depuis 1954.
 					</div>
-					<div>
-						Située à Bayonne, dans le département des Pyrennées Atlantique (64), l'entreprise Gonzalez Bobinage propose ses prestations de service en bobinage et moteurs électriques.
+					<div class="description">
+						Situé à Bayonne, avec plus de 60 ans d’expérience dans les métiers du bobinage et de l’électromécanique, l'entreprise GONZALEZ BOBINAGE propose ses prestations de service maintenance industrielle.
 						<br/>
-						L'entreprise Gonzalez Bobinage, spécialiste du vide Rietschle Elmo et franchisée K2 intervient dans toute la France pour les livraisons de certains de ses produits.
-						<br/>
-						Pour la maintenance ou la réparation des bobinages ou des moteurs électriques, nos techniciens conseils se déplacent sur site pour évaluer le matériel et par la suite établir un devis pour les travaux à réaliser sur vos machines.
-						<br/>
-						L'entreprise Gonzalez Bobinage vend différents types de moteurs électriques et de bobinages en fonction de vos besoins.
-						<br/>
-						Pour tout renseignement complémentaire, l'entreprise Gonzalez Bobinage reste à votre disposition concernant les prestations de bobinages et de moteurs électriques proposées.
+						 A travers toutes ces années, les méthodes et process ont évolué avec toujours la même volonté de satisfaction du client.
 					</div>
 					<a href="histoire.html">
 						En savoir plus
-					</a>
+					</a>>
 				</div>
 			</div>
 			<div class="clearfix activity">
 				<div class="col-sm-offset-2 col-sm-8">
-					<div class="col-sm-4">
-						<img src="img/pompe.jpg" alt="france" style="height: 260px;"/>
-						Nos principales activités
-						- Le bobinage. 
-						- La réparation de pompes. 
-						- La réalisation d’armoires électriques. 
-						- La vente de moteurs et de pompes. 
-						- Le diagnostic d’installations sur site 
+					<div class="title">
+						Spécialiste Maintenance Moteur Bobinage Industriel
 					</div>
 					<div class="col-sm-4">
 						<img src="img/pompe.jpg" alt="france" style="height: 260px;"/>
-						Notre équipe se déplace sur site afin d’expertiser vos équipements défectueux 24h/24 et 7j/7.
-						Si vous le souhaitez, nous pouvons procéder à leur démontage pour réparation dans nos locaux ou dans la mesure ou cela est possible la réparation directement sur site.
+						<div class="description">
+							Pour la maintenance ou la réparation des bobinages ou des moteurs électriques, nos techniciens conseils se déplacent sur site pour évaluer le matériel et par la suite établir un devis pour les travaux à réaliser sur vos machines.
+							<br/>
+							L'entreprise Gonzalez Bobinage vend différents types de moteurs électriques et de bobinages en fonction de vos besoins.
+						</div>
+						<a>Voir plus en détail</a>
 					</div>
 					<div class="col-sm-4">
-						<img src="img/Moteurs-triphases.jpg" alt="france" style="height: 260px;" />
-						Afin d’optimiser la durée de vie de vos équipements et ainsi réduire leurs temps d’arrêt de production, nous vous proposons des contrats d’entretien et de maintenance, adaptés selon vos demandes qui vous permettrons de fiabiliser vos installations. A la suite de chacune des visites réalisées par nos techniciens, un compte rendu vous sera fourni, vous permettant de suivre l’évolution de vos équipements et ainsi prévoir vos futures interventions.
+						<img src="img/pompe.jpg" alt="france" style="height: 260px;"/>
+						<div class="description">
+							Expert dans le domaine des solutions de pompage, nous intervenons dans 'étude et la fourniture de solutions techniques pour le pompage, le relevage des eaux usées, pluviales et industrielles (poste de relevage et station de pompage, pompes,...).
+						</div>
+						<a>Voir plus en détail</a>
+					</div>
+					<div class="col-sm-4">
+						<img src="img/carte.jpg" alt="france" style="height: 260px;" />
+						<div class="description">
+							Spécialisée dans l'automatisme, la mécanique et la robotique. Nous réalisons l'étude, la conception et la fabrication de machines spéciales chargées de répondre aux besoins spécifiques des entreprises.
+							<br/>
+							Nos équipes savent aussi bien concevoir un équipement minimisant.
+						</div>
+						<a>Voir plus en détail</a>
 					</div>
 				</div>
 			</div>
@@ -168,16 +187,16 @@
 			<div class="clearfix">
 				<div class="partners col-sm-offset-1 col-sm-10">
 					<div class="col-sm-3">
-						<img src="img/logo-atelier-chocolat.jpg" alt="logo-atelier-chocolat">
+						<img src="img/logo-hopital.jpg" alt="logo-hopital" style="height: 107px">
 					</div>
 					<div class="col-sm-3">
 						<img src="img/logo-dubos.png" alt="logo-dubos" style="margin-top: 20px;">
 					</div>
 					<div class="col-sm-3">
-						<img src="img/logo-eurovia.jpg" alt="logo-eurovia">
+						<img src="img/logo-atelier-chocolat.jpg" alt="logo-atelier-chocolat">
 					</div>
 					<div class="col-sm-3">
-						<img src="img/logo-eurovia.jpg" alt="logo-eurovia">
+						<img src="img/logo-kone.png" alt="logo-kone">
 					</div>
 				</div>
 			</div>
@@ -186,7 +205,7 @@
 		<div class="clearfix contact-us">
 			<!--http://www.cantilever-chippy.co.uk/-->
 			<div class="background-contact"></div>
-			<div class="find-us">
+			<div class="find-us hidden-xs">
 				<div class="googlemap">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5245.047279547956!2d-1.4944828469346865!3d43.499767858310705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51405b9e73e781%3A0x2de328f0e4b85e3e!2s54+All%C3%A9es+Marines%2C+64100+Bayonne!5e0!3m2!1sfr!2sfr!4v1474554209494" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
