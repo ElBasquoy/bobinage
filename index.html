@@ -16,7 +16,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/index.css">
 
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
 
@@ -30,20 +30,18 @@
 	<header class="clearfix">
 		<div class="hidden-xs">
 			<div class="col-sm-offset-3 col-sm-2">
-				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Action
-				</button>
-				<ul class="dropdown-menu">
-					<li><a href="#">Action</a></li>
-					<li><a href="#">Another action</a></li>
-					<li><a href="#">Something else here</a></li>
-					<li role="separator" class="divider"></li>
-					<li><a href="#">Separated link</a></li>
-				</ul>
-				<!--<a id="history" class="btn btn-link btn-block">SOCIÉTÉ</a>-->
+				<div class="dropdown">
+					<a id="history" class="btn btn-link btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						SOCIETE
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="dLabel">
+						<li><a href="histoire.html">Histoire</a></li>
+						<li><a href="quality.html">Qualité et sécurité certifiées</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="col-sm-2">
-				<a class="btn btn-link btn-block">ACTIVITES</a>
+				<a class="btn btn-link btn-block" href="activity.html">ACTIVITES</a>
 			</div>
 			<div class="col-sm-2">
 				<a id="contact-us" class="btn btn-link btn-block">CONTACT</a>

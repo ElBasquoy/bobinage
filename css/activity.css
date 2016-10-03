@@ -1,0 +1,60 @@
+
+
+body{
+	background-color: #f5f5f5;
+	font-family: "Vollkorn", serif;
+}
+button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
+    display: block !important;
+ }
+ .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+header{
+	background: #2b3036;
+	padding: 1.5em 1em;
+}
+header .btn-block {
+	color: white;
+	font-size: 140%;
+}
+header .btn-block:hover {
+	color:#049262;
+	text-decoration: none;
+}
+header .active, header .active:hover{
+	color: #049262;
+}
+a{
+	cursor:pointer;
+}
+a:hover{
+	text-decoration: none;
+}
+button.btn.btn-default.dropdown-toggle{
+	float: right;
+}
+.title-quality{
+	text-align: center;
+	color: #049262;
+	font-size: 2em;
+	margin: 2em 0 1em 0;	
+}
+.activity-description{
+	color: #646464;
+    font-size: 1.1em;
+}
+.title-activity{
+	text-align: center;
+	color: #049262;
+	font-size: 2em;
+	margin: 2em 0 1em 0;	
+}
+.prestation, .techno{
+    margin: 2em 0;
+}
+.techno .title, .prestation .title{
+	font-size: 1.4em;
+	color: #049262;
+}
