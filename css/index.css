@@ -47,10 +47,10 @@ button.btn.btn-default.dropdown-toggle{
 	float: right;
 }
 .carousel-caption{
-    top: 5%;
+    top: 10%;
     font-size: 3em;
     color: green;
-    text-align: left;
+    text-align: center;
 }
 .background-slogan{ 
     background: url(../img/moteur.png) no-repeat center;
