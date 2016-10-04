@@ -1,16 +1,16 @@
  jQuery(document).ready(function($) {
-    /*$(".slogan").height($(window).height());
+    $(".screen").height($(window).height());
 		$(".fancybox").fancybox({
 		openEffect	: 'none',
 		closeEffect	: 'none'
-	});*/
+	});
  });
 
-/*window.onresize = resize;
+//window.onresize = resize;
 
 function resize() {
-    $(".slogan").height($(window).height());
-}*/
+    $(".screen").height($(window).height());
+}
 
 $("#history").click(function(){
 	$("html, body").animate({

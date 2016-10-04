@@ -39,6 +39,12 @@ a:hover{
 button.btn.btn-default.dropdown-toggle{
 	float: right;
 }
+.carousel-caption{
+    top: 5%;
+    font-size: 3em;
+    color: green;
+    text-align: left;
+}
 .background-slogan{ 
     background: url(../img/moteur.png) no-repeat center;
 	-webkit-background-size: cover;
@@ -51,7 +57,7 @@ button.btn.btn-default.dropdown-toggle{
     left: 0;
 }
 .background-contact{
-    background: url(../img/schema.png) no-repeat center fixed;
+    background: url(../img/index-schema.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
     background-size: cover;
     opacity: 0.2;
@@ -89,14 +95,17 @@ button.btn.btn-default.dropdown-toggle{
 	color: #646464;
 	font-size: 1.1em;
 }
-.template .activity{
-	margin-bottom: 10%;
-}
 .template .activity .title{
 	color: #049262;
 	font-size: 2em;
 	padding: 3em 0 2em 0;
 	text-align: center
+}
+.template .activity .col-sm-4{
+	text-align: center;
+}
+.template .activity .description{
+	text-align: justify
 }
 .template .activity img {
 	margin-bottom: 1em;

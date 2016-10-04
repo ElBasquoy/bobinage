@@ -1,7 +1,7 @@
 
 
 body{
-	background-color: #f5f5f5;
+	background-color: white;
 	font-family: "Vollkorn", serif;
 }
 button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
@@ -44,17 +44,47 @@ button.btn.btn-default.dropdown-toggle{
 .activity-description{
 	color: #646464;
     font-size: 1.1em;
+	line-height: 2.5em
 }
 .title-activity{
 	text-align: center;
 	color: #049262;
 	font-size: 2em;
-	margin: 2em 0 1em 0;	
+	margin: 3em 0 1em 0;	
 }
 .prestation, .techno{
     margin: 2em 0;
 }
+.techno, .prestation{
+	min-height: 700px;
+}
+.prestation .info-prestation{
+	margin: 1em 0;
+	line-height: 2em;
+}
 .techno .title, .prestation .title{
 	font-size: 1.4em;
 	color: #049262;
+	margin: 8em 0 0.5em 0;
+}
+.techno .title-col, .prestation .title-col{
+	color: #04A9A0;
+}
+.techno .description-col, .prestation .description-col{
+	color: #646464;
+	margin: 0.5em 0 0 1em;
+}
+.techno .row, .prestation .row{
+	margin-bottom: 2em;
+}
+.techno .background-techno{
+    background: url(../img/activity-background-schema.jpg) no-repeat center;
+	-webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+	height: 700px;
+    position: absolute;
+	z-index: -1;
+    right: 0;
+    left: 0;	
 }
