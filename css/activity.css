@@ -5,6 +5,7 @@
 body{
 	background-color: #f5f5f5;
 	font-family: "Vollkorn", serif;
+	line-height: 2em;
 }
 button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
     display: block !important;
@@ -46,7 +47,6 @@ button.btn.btn-default.dropdown-toggle{
 .activity-description{
 	color: #646464;
     font-size: 1.1em;
-	line-height: 2.5em
 }
 .title-activity{
 	text-align: center;
@@ -55,14 +55,18 @@ button.btn.btn-default.dropdown-toggle{
 	margin: 3em 0 1em 0;	
 }
 .prestation, .techno{
-    margin: 2em 0;
+    padding: 2em 0;
 }
-.techno, .prestation{
+.prestation{
+	background: white;
+}
+.techno, .prestation, .info{
 	min-height: 700px;
 }
 .prestation .info-prestation{
 	margin: 1em 0;
-	line-height: 2em;
+	color: #646464;
+	font-size: 1.1em
 }
 .techno .title, .prestation .title{
 	font-size: 1.4em;
@@ -76,8 +80,11 @@ button.btn.btn-default.dropdown-toggle{
 	color: #646464;
 	margin: 0.5em 0 0 1em;
 }
+.techno .description-col .glyphicon, .prestation .description-col .glyphicon{
+	margin-right: 0.5em;
+}
 .techno .row, .prestation .row{
-	margin-bottom: 2em;
+	padding-bottom: 2em;
 }
 .techno .background-techno{
     background: url(../img/activity-background-schema.jpg) no-repeat center;

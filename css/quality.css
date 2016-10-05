@@ -3,6 +3,7 @@
 body{
 	background-color: #f5f5f5;
 	font-family: "Vollkorn", serif;
+	line-height: 2em;
 }
 button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
     display: block !important;
@@ -42,7 +43,10 @@ button.btn.btn-default.dropdown-toggle{
 	margin: 2em 0 1em 0;	
 }
 .quality-template{
-	margin-bottom: 3em;
+	margin-bottom: 4em;
+}
+.quality-template .text-center{
+	text-align: center
 }
 .quality-template .quality-title{
 	font-size: 1.4em;
@@ -51,4 +55,9 @@ button.btn.btn-default.dropdown-toggle{
 .quality-template .quality-description{
 	color: #646464;
     font-size: 1.1em;
+}
+.info-description{
+	color: #646464;
+    font-size: 1.1em;
+	margin-bottom: 2em;
 }
