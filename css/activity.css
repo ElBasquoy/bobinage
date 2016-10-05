@@ -15,7 +15,8 @@ button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
     margin-top: 0;
  }
 header{
-	background: #2b3036;
+    background: -webkit-linear-gradient(#15193e 50%, #5373b1);
+    background: linear-gradient(#15193e 50%, #5373b1);
 	padding: 1.5em 1em;
 }
 header .btn-block {

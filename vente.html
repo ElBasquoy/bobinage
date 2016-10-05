@@ -16,7 +16,7 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="css/histoire.css">
+	<link rel="stylesheet" href="css/vente.css">
 
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
 
@@ -31,8 +31,9 @@
 		<div class="hidden-xs">
 			<div class="col-sm-offset-3 col-sm-2">
 				<div class="dropdown">
-					<a href="index.html" id="history" class="btn btn-link btn-block">
+					<a id="history" class="btn btn-link btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						SOCIETE
+						<span class="glyphicon glyphicon-menu-down"></span>
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="dLabel">
 						<li><a href="histoire.html">Histoire</a></li>
@@ -41,10 +42,19 @@
 				</div>
 			</div>
 			<div class="col-sm-2">
-				<a class="btn btn-link btn-block" href="activity.html">ACTIVITES</a>
+				<div class="dropdown">
+					<a class="btn btn-link btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						ACTIVITES
+						<span class="glyphicon glyphicon-menu-down"></span>
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="dLabel">
+						<li><a href="activity.html">Activité</a></li>
+						<li><a href="vente.html">Vente</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="col-sm-2">
-				<a href="index.html" id="contact-us" class="btn btn-link btn-block">CONTACT</a>
+				<a id="contact-us" class="btn btn-link btn-block">CONTACT</a>
 			</div>
 		</div>
 		<div class="btn-group visible-xs">
@@ -60,46 +70,23 @@
 			</ul>
 		</div>
 	</header>
-	<div class="histoire-body">
-		<div class="background-history"></div>
-		<div class="">
-			De type artisanal, l'entreprise GONZALEZ BOBINAGE est créée en 1954 dans le secteur de la maintenance des moteurs électriques.
-		</div>
-		<a class="fancybox" rel="gallery1" href="img/histoire-1990.jpg" title="Eric GONZALEZ - 1990">
-			<img src="img/histoire-1990.jpg" alt="" />
-		</a>
-		<a class="fancybox" rel="gallery1" href="img/histoire-carte1.jpg" title="1er carte de visite - 1950">
-			<img src="img/histoire-carte1.jpg" alt="" />
-		</a>
-		<a class="fancybox" rel="gallery1" href="img/histoire-carte2.jpg" title="2eme carte de visite - 1960">
-			<img src="img/histoire-carte2.jpg" alt="" />
-		</a>
-		<a class="fancybox" rel="gallery1" href="img/histoire-carte3.jpg" title="3eme carte de visite - 1970">
-			<img src="img/histoire-carte3.jpg" alt="" />
-		</a>
-		<a class="fancybox" rel="gallery1" href="img/histoire-carte4.jpg" title="3eme carte de visite - 1970">
-			<img src="img/histoire-carte4.jpg" alt="" />
-		</a>
-		<a class="fancybox" rel="gallery1" href="img/histoire-carte5.jpg" title="3eme carte de visite - 1970">
-			<img src="img/histoire-carte5.jpg" alt="" />
-		</a>
-	</div>
-	<div class="history-motor">
-	</div>
-	<!--http://fancyapps.com/fancybox/#license-->
-
+	<div class="vente-body">
+        <div class="">
+            Gonzalez Bobinage est revendeur de plusieurs références
+        </div>
+        <div class="">
+            Les Pompes BODIN
+        </div>
+        <div>
+            Spécialisé dans la conception et de la fabrication de Pompes pour l'Assainissement et l'Industrie agro-alimentaire.
+            Les pompes BODIN sont spécialisés dans la vente de petites pompes submersibles de relevage d'eaux usées destinées au marché de l'habitat.
+        </div>
+    </div>
+		<!-- /container -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
 		<script src="js/vendor/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/vendor/fancybox/source/jquery.fancybox.pack.js"></script>
-		<link rel="stylesheet" href="js/vendor/fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="js/vendor/fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
-		<script type="text/javascript" src="js/vendor/fancybox/source/helpers/jquery.fancybox-media.js"></script>
-		<link rel="stylesheet" href="js/vendor/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
-
-		<link rel="stylesheet" href="js/vendor/fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
-		<script type="text/javascript" src="js/vendor/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
 

@@ -1,5 +1,16 @@
 
 
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.row{
+	margin: 0
+}
+.glyphicon-menu-down:before {
+    content: "\e114";
+	font-weight: lighter;
+    font-size: 70%;
+}
 body{
 	background-color: #f5f5f5;
 	font-family: "Vollkorn", serif;
@@ -37,28 +48,14 @@ a:hover{
 button.btn.btn-default.dropdown-toggle{
 	float: right;
 }
-.title-quality{
-	text-align: center;
-	color: #049262;
-	font-size: 2em;
-	margin: 2em 0 1em 0;	
-}
-.quality-template{
-	margin-bottom: 4em;
-}
-.quality-template .text-center{
-	text-align: center
-}
-.quality-template .quality-title{
-	font-size: 1.4em;
-	color: #049262;
-}
-.quality-template .quality-description{
-	color: #646464;
-    font-size: 1.1em;
-}
-.info-description{
-	color: #646464;
-    font-size: 1.1em;
-	margin-bottom: 2em;
+.histoire-body .background-history{
+	background: url(../img/histoire-background2.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+	height: 800px;
+    position: absolute;
+	z-index: -1;
+    right: 0;
+    left: 0;
 }

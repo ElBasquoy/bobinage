@@ -1,0 +1,85 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.row{
+	margin: 0
+}
+.glyphicon-menu-down:before {
+    content: "\e114";
+	font-weight: lighter;
+    font-size: 70%;
+}
+body{
+	background-color: #f5f5f5;
+	font-family: "Vollkorn", serif;
+	line-height: 2em;
+}
+button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
+    display: block !important;
+ }
+ .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+header{
+    background: -webkit-linear-gradient(#15193e 50%, #5373b1);
+    background: linear-gradient(#15193e 50%, #5373b1);
+	padding: 1.5em 1em;
+}
+header .btn-block {
+	color: white;
+	font-size: 140%;
+}
+header .btn-block:hover {
+	color:#049262;
+	text-decoration: none;
+}
+header .active, header .active:hover{
+	color: #049262;
+}
+a{
+	cursor:pointer;
+}
+a:hover{
+	text-decoration: none;
+}
+button.btn.btn-default.dropdown-toggle{
+	float: right;
+}
+.tile-contact{
+    text-align: center;
+    font-size: 2em;
+    color: #049262;
+    padding: 2em 0 1em 0;
+}
+.find-us{
+	margin: 6% 0 0 10%;
+	position: absolute;
+	background: url(../img/findus-mapbackground.png) 0 0 no-repeat;
+}
+.find-us iframe{
+	border: 0;
+	margin: 75px;
+	height: 400px;
+	width: 457px;
+}
+.find-contact{
+	background: url(../img/find-contact.png) 0 0 no-repeat;
+    height: 350px;
+    position: relative;
+    margin-left: 50%;
+    top: 8em;<
+}
+.background-contact{
+    background: url(../img/index-schema.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+	height: 800px;
+    position: absolute;
+	z-index: -1;
+    right: 0;
+    left: 0;	
+}

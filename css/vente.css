@@ -1,5 +1,16 @@
 
 
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.row{
+	margin: 0
+}
+.glyphicon-menu-down:before {
+    content: "\e114";
+	font-weight: lighter;
+    font-size: 70%;
+}
 body{
 	background-color: #f5f5f5;
 	font-family: "Vollkorn", serif;
@@ -13,8 +24,8 @@ button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
     margin-top: 0;
  }
 header{
-    background: -webkit-linear-gradient(#15193e 50%, #5373b1);
-    background: linear-gradient(#15193e 50%, #5373b1);
+    background: -webkit-linear-gradient(#192236 50%, #293855);
+    background: linear-gradient(#192236 50%, #293855);
 	padding: 1.5em 1em;
 }
 header .btn-block {
@@ -36,29 +47,4 @@ a:hover{
 }
 button.btn.btn-default.dropdown-toggle{
 	float: right;
-}
-.title-quality{
-	text-align: center;
-	color: #049262;
-	font-size: 2em;
-	margin: 2em 0 1em 0;	
-}
-.quality-template{
-	margin-bottom: 4em;
-}
-.quality-template .text-center{
-	text-align: center
-}
-.quality-template .quality-title{
-	font-size: 1.4em;
-	color: #049262;
-}
-.quality-template .quality-description{
-	color: #646464;
-    font-size: 1.1em;
-}
-.info-description{
-	color: #646464;
-    font-size: 1.1em;
-	margin-bottom: 2em;
 }
