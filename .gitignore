@@ -1,0 +1,4 @@
+node_modules/*
+!/node_modules/bootstrap-sass
+!/node_modules/fancybox
+!/node_modules/jquery
