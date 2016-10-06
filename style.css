@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(./css/index.css);
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -5813,6 +5814,3 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-
-.test {
-  color: red; }
