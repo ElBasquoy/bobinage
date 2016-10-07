@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "npm run sass & npm run watch",
-    "watch": "watch -p '**/*.scss' -c 'npm sass'",
+    "watch": "watch -p '**/*.scss' -c 'npm run sass'",
     "sass": "node-sass style.scss style.css"
   },
   "devDependencies": {
