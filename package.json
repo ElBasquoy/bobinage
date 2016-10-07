@@ -8,10 +8,12 @@
     "jquery": "^3.1.1"
   },
   "scripts": {
-    "start": "npm run sass",
+    "start": "npm run sass & npm run watch",
+    "watch": "watch -p '**/*.scss' -c 'npm sass'",
     "sass": "node-sass style.scss style.css"
   },
   "devDependencies": {
-    "node-sass": "^3.10.1"
+    "node-sass": "^3.10.1",
+    "watch-cli": "^0.2.1"
   }
 }
