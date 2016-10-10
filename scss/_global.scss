@@ -33,6 +33,11 @@ header{
   .active, header .active:hover{
     color: $brand-success;
   }
+  .logo-atelier{
+    span{
+      color: $white
+    }
+  }
 }
 a{
 	cursor:pointer;

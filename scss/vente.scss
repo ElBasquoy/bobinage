@@ -1,10 +1,10 @@
 
 .vente-body {
-  .title-vente{
+  .title-general{
     text-align: center;
     color: $brand-success;
     font-size: 2em;
-    margin: 2em 0 1em 0;
+    margin: 2em 0;
   }
   .vente-template {
     margin-bottom: 4em;
@@ -15,6 +15,9 @@
     .vente-description{
       color: $gray-darker;
       font-size: 1.1em;
+    }
+    img{
+      margin: 2em 0;
     }
   }
   .info-description{

@@ -6,20 +6,17 @@
     font-size: 2em;
     margin: 2em 0 1em 0;
   }
-  .activity-description{
-    color: $gray-darker;
-      font-size: 1.1em;
-  }
-  .title-activity{
-    text-align: center;
-    color: $brand-success;
-    font-size: 2em;
-    margin: 3em 0 1em 0;
-  }
-  .prestation{
-    background: $white;
-    .techno{
-      padding: 2em 0;
+  .activity-info{
+    margin: 3em 0;
+    .activity-description{
+      color: $gray-darker;
+        font-size: 1.1em;
+    }
+    .title-activity{
+      text-align: center;
+      color: $brand-success;
+      font-size: 2em;
+      margin-bottom: 1em;
     }
   }
   .list-activity  {
