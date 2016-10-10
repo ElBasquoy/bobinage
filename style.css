@@ -5908,7 +5908,7 @@ img {
 
 .index-body .history .description, .index-body .activity .description {
   color: #646464;
-  font-size: 1.1em; }
+  font-size: 110%; }
 
 .index-body .trust {
   background: #FFFFFF;
