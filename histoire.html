@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="style.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
-	
+
 	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
@@ -28,10 +28,17 @@
 		<![endif]-->
 	<header class="clearfix">
 		<div class="hidden-xs">
-			<div class="col-sm-offset-3 col-sm-2">
+			<div class="col-sm-3">
+				<img src="img/small-logo.png" alt="logo" />
+				<span style="color: white">
+					GONZALEZ Bobinage
+				</span>
+			</div>
+			<div class="col-sm-2">
 				<div class="dropdown">
-					<a href="index.html" id="history" class="btn btn-link btn-block">
+					<a id="history" class="btn btn-link btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						SOCIETE
+						<span class="glyphicon glyphicon-menu-down"></span>
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="dLabel">
 						<li><a href="histoire.html">Histoire</a></li>
@@ -40,10 +47,19 @@
 				</div>
 			</div>
 			<div class="col-sm-2">
-				<a class="btn btn-link btn-block" href="activity.html">ACTIVITES</a>
+				<div class="dropdown">
+					<a class="btn btn-link btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						ACTIVITES
+						<span class="glyphicon glyphicon-menu-down"></span>
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="dLabel">
+						<li><a href="activity.html">Activité</a></li>
+						<li><a href="vente.html">Vente</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="col-sm-2">
-				<a href="index.html" id="contact-us" class="btn btn-link btn-block">CONTACT</a>
+				<a id="contact-us" class="btn btn-link btn-block">CONTACT</a>
 			</div>
 		</div>
 		<div class="btn-group visible-xs">
