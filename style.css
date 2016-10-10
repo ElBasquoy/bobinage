@@ -5921,12 +5921,8 @@ img {
     font-weight: 400;
     padding-bottom: 5%; }
 
-.index-body .patners {
-  padding-top: 20px; }
-  .index-body .patners > div {
-    padding: 10px; }
-  .index-body .patners img {
-    width: 200px; }
+.index-body .partners img {
+  width: 100%; }
 
 .index-body .contact-us .background-contact {
   background: url(img/index-schema.jpg) no-repeat center fixed;
