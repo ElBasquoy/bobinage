@@ -1,0 +1,128 @@
+
+.index-body{
+  .contact-us, .activity {
+    min-height: 800px;
+  }
+  .history{
+    padding: 10% 0;
+    background: $white;
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+    >div:first-child{
+      margin-right: 1em;
+    }
+    img {
+      border-radius: 5%;
+      height: 180px;
+      width: 200px;
+    }
+    .title{
+      color: $brand-success;
+      font-size: 2em;
+      padding-bottom: 0.2em;
+    }
+  }
+  .activity {
+    background: $gray-light;
+    .title{
+      color: $brand-success;
+      font-size: 2em;
+      padding: 3em 0 2em 0;
+      text-align: center
+    }
+    .col-sm-4{
+      text-align: center;
+    }
+    .description{
+      text-align: justify
+    }
+    img {
+      margin-bottom: 1em;
+    }
+  }
+  .how-work-motor{
+    padding-top: 0;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .history .description, .activity .description{
+    color: $gray-darker;
+    font-size: 1.1em;
+  }
+  .trust{
+    background: $white;
+    border-bottom: 1px solid $gray;
+    border-top: 1px solid $gray;
+    padding: 8% 0 10% 0;
+    .title{
+      text-align: center;
+      font-size: 150%;
+      font-weight: 400;
+      padding-bottom: 5%;
+    }
+  }
+  .patners{
+    padding-top: 20px;
+    >div{
+      padding: 10px;
+    }
+     img {
+      width: 200px;
+    }
+  }
+  .contact-us{
+    .background-contact{
+      background: url(img/index-schema.jpg) no-repeat center fixed;
+      -webkit-background-size: cover;
+      background-size: cover;
+      opacity: 0.2;
+      height: 800px;
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      left: 0;
+    }
+    .find-us{
+      margin: 6% 0 0 10%;
+      position: absolute;
+      background: url(img/findus-mapbackground.png) 0 0 no-repeat;
+      iframe{
+        border: 0;
+        margin: 75px;
+        height: 400px;
+        width: 457px;
+      }
+    }
+    .find-contact{
+      background: url(img/find-contact.png) 0 0 no-repeat;
+        height: 350px;
+        position: relative;
+        margin-left: 50%;
+        margin-top: 9%;
+    }
+  }
+  @media (max-width: 768px) {
+    .partners {
+      text-align: center;
+    }
+    .template{
+      .history{
+        text-align: center;
+        img {
+          margin-bottom: 1em;
+        }
+      }
+    }
+    .find-contact{
+      margin-left: 5%
+    }
+    .background-contact{
+      height: 500px
+    }
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .partners img{
+      width: 140px;
+    }
+  }
+}

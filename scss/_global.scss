@@ -1,0 +1,57 @@
+.row{
+	margin: 0
+}
+.glyphicon-menu-down:before {
+  content: "\e114";
+	font-weight: lighter;
+  font-size: 70%;
+}
+body{
+	background-color: $white;
+	font-family: "Vollkorn", serif;
+	line-height: 2em;
+}
+button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
+  display: block !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+header{
+  background: -webkit-linear-gradient(#15193e 50%, #5373b1);
+  background: linear-gradient(#15193e 50%, #5373b1);
+	padding: 1.5em 1em;
+  .btn-block {
+    color: $white;
+    font-size: 140%;
+  }
+  .btn-block:hover {
+    color:$brand-success;
+    text-decoration: none;
+  }
+  .active, header .active:hover{
+    color: $brand-success;
+  }
+}
+a{
+	cursor:pointer;
+}
+a:hover{
+	text-decoration: none;
+}
+button.btn.btn-default.dropdown-toggle{
+	float: right;
+}
+.carousel-caption{
+    top: 10%;
+    font-size: 3em;
+    color: $brand-success;
+    text-align: center;
+}
+.text-center{
+  text-align: center
+}
+img{
+  border-radius: 5px;
+}

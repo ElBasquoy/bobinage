@@ -1,0 +1,79 @@
+
+.histoire-body  {
+  .background-history{
+    background: url(img/histoire-background2.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    left: 0;
+  }
+  .info {
+    padding: 16% 3% 10% 0;
+    color: $brand-success-light;
+    font-size: 1.2em;
+  }
+  .photos {
+    a{
+      position: absolute;
+      -webkit-transition: all 0.3s ease !important;
+      -moz-transition: all 0.3s ease !important;
+      -ms-transition: all 0.3s ease !important;
+      transition: all 0.3s ease !important;
+    }
+    a:first-child{
+      margin-top: 100px;
+      margin-left:100px;
+      -moz-transform: rotate(-3deg);
+      -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+      transform: rotate(-3deg);
+      z-index: 1;
+    }
+    a:nth-child(2){
+      margin-top: 50px;
+      margin-left: 400px;
+      -moz-transform: rotate(4deg);
+      -webkit-transform: rotate(4deg);
+      -ms-transform: rotate(4deg);
+      transform: rotate(4deg);
+      z-index: 2;
+    }
+    a:nth-child(3){
+      margin-top: 217px;
+      margin-left: 421px;
+      -moz-transform: rotate(-1deg);
+      -webkit-transform: rotate(-1deg);
+      -ms-transform: rotate(-1deg);
+      transform: rotate(-1deg);
+      z-index: 3;
+    }
+    a:nth-child(4){
+      margin-top: 328px;
+      margin-left: 251px;
+      -moz-transform: rotate(-1deg);
+      -webkit-transform: rotate(-1deg);
+      -ms-transform: rotate(-1deg);
+      transform: rotate(-1deg);
+      z-index: 4;
+    }
+    a:nth-child(5){
+      margin-top: 414px;
+      margin-left: 84px;
+      -moz-transform: rotate(7deg);
+      -webkit-transform: rotate(7deg);
+      -ms-transform: rotate(7deg);
+      transform: rotate(7deg);
+      z-index: 5;
+    }
+    a:hover{
+      -moz-transform: rotate(-3deg);
+      -webkit-transform: rotate(-3deg);
+      -ms-transform: rotate(-3deg);
+      transform: rotate(-3deg);
+    }
+  }
+}

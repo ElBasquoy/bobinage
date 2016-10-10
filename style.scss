@@ -1,1 +1,9 @@
 @import "./node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "./scss/_variables";
+@import "./scss/_global";
+@import "./scss/index.scss";
+@import "./scss/quality.scss";
+@import "./scss/activity.scss";
+@import "./scss/contact.scss";
+@import "./scss/vente.scss";
+@import "./scss/histoire.scss";
