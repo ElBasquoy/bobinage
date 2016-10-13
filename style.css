@@ -5873,6 +5873,12 @@ img {
 .index-body .contact-us, .index-body .activity {
   min-height: 800px; }
 
+.index-body .carousel-caption span {
+  color: #04A9A0;
+  display: block;
+  padding-top: 1em;
+  font-size: 80%; }
+
 .index-body .history {
   padding: 10% 0;
   background: #FFFFFF;
@@ -5922,9 +5928,10 @@ img {
     font-size: 150%;
     font-weight: 400;
     padding-bottom: 5%; }
-
-.index-body .partners img {
-  width: 100%; }
+  .index-body .trust .row {
+    margin-bottom: 3%; }
+    .index-body .trust .row .partners div {
+      text-align: center; }
 
 .index-body .contact-us .background-contact {
   background: url(img/index-schema.jpg) no-repeat center fixed;
@@ -5939,13 +5946,15 @@ img {
 
 .index-body .contact-us .find-us {
   margin: 6% 0 0 10%;
-  position: absolute;
-  background: url(img/findus-mapbackground.png) 0 0 no-repeat; }
+  position: absolute; }
   .index-body .contact-us .find-us iframe {
     border: 0;
-    margin: 75px;
+    margin: 10% 0 0px 20%;
     height: 400px;
-    width: 457px; }
+    width: 457px;
+    -moz-box-shadow: 10px 10px 5px #656565;
+    -webkit-box-shadow: 10px 10px 5px #656565;
+    box-shadow: 10px 10px 5px #656565; }
 
 .index-body .contact-us .find-contact {
   background: url(img/find-contact.png) 0 0 no-repeat;
@@ -6038,7 +6047,7 @@ img {
       margin-right: 0.5em; }
 
 .contact-us .background-contact {
-  background: url(img/blabla.png) no-repeat center fixed;
+  background: url(img/contact-background.png) no-repeat center fixed;
   -webkit-background-size: cover;
   background-size: cover;
   opacity: 0.2;
@@ -6058,13 +6067,15 @@ img {
 
 .contact-us .find-us {
   margin: 6% 0 0 10%;
-  position: absolute;
-  background: url(img/findus-mapbackground.png) 0 0 no-repeat; }
+  position: absolute; }
   .contact-us .find-us iframe {
     border: 0;
-    margin: 75px;
+    margin: 10% 0 0px 20%;
     height: 400px;
-    width: 457px; }
+    width: 457px;
+    -moz-box-shadow: 10px 10px 5px #656565;
+    -webkit-box-shadow: 10px 10px 5px #656565;
+    box-shadow: 10px 10px 5px #656565; }
 
 .contact-us .find-contact {
   background: url(img/find-contact.png) 0 0 no-repeat;
@@ -6153,20 +6164,20 @@ img {
     transform: rotate(4deg);
     z-index: 4; }
   .histoire-body .row .photos a:nth-child(5) {
-    margin-top: 414px;
-    margin-left: 84px;
+    margin-top: 29em;
+    margin-left: 7em;
+    -moz-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+    z-index: 5; }
+  .histoire-body .row .photos a:nth-child(6) {
+    margin-top: 26em;
+    margin-left: -5em;
     -moz-transform: rotate(7deg);
     -webkit-transform: rotate(7deg);
     -ms-transform: rotate(7deg);
     transform: rotate(7deg);
-    z-index: 5; }
-  .histoire-body .row .photos a:nth-child(6) {
-    margin-top: 267px;
-    margin-left: -85px;
-    -moz-transform: rotate(7deg);
-    -webkit-transform: rotate(7deg);
-    -ms-transform: rotate(7deg);
-    transform: rotate(-7deg);
     z-index: 5; }
   .histoire-body .row .photos a:hover {
     -moz-transform: rotate(-3deg);

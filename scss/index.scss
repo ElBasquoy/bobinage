@@ -3,6 +3,14 @@
   .contact-us, .activity {
     min-height: 800px;
   }
+  .carousel-caption{
+    span{
+      color: $brand-success-light;
+      display: block;
+      padding-top: 1em;
+      font-size: 80%;
+    }
+  }
   .history{
     padding: 10% 0;
     background: $white;
@@ -60,10 +68,13 @@
       font-weight: 400;
       padding-bottom: 5%;
     }
-  }
-  .partners{
-    img{
-      width: 100%
+    .row{
+      margin-bottom: 3%;
+      .partners{
+        div{
+          text-align: center
+        }
+      }
     }
   }
   .contact-us{
@@ -81,12 +92,15 @@
     .find-us{
       margin: 6% 0 0 10%;
       position: absolute;
-      background: url(img/findus-mapbackground.png) 0 0 no-repeat;
+      //background: url(img/findus-mapbackground.png) 0 0 no-repeat;
       iframe{
         border: 0;
-        margin: 75px;
+        margin: 10% 0 0px 20%;
         height: 400px;
         width: 457px;
+        -moz-box-shadow: 10px 10px 5px #656565;
+        -webkit-box-shadow: 10px 10px 5px #656565;
+        box-shadow: 10px 10px 5px #656565;
       }
     }
     .find-contact{

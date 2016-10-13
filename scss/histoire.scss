@@ -64,21 +64,21 @@
         z-index: 4;
       }
       a:nth-child(5){
-        margin-top: 414px;
-        margin-left: 84px;
+        margin-top: 29em;
+        margin-left: 7em;
+        -moz-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        -ms-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+        z-index: 5;
+      }
+      a:nth-child(6){
+        margin-top: 26em;
+        margin-left: -5em;
         -moz-transform: rotate(7deg);
         -webkit-transform: rotate(7deg);
         -ms-transform: rotate(7deg);
         transform: rotate(7deg);
-        z-index: 5;
-      }
-      a:nth-child(6){
-        margin-top: 267px;
-        margin-left: -85px;
-        -moz-transform: rotate(7deg);
-        -webkit-transform: rotate(7deg);
-        -ms-transform: rotate(7deg);
-        transform: rotate(-7deg);
         z-index: 5;
       }
       a:hover{
