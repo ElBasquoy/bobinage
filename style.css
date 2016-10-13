@@ -6160,6 +6160,14 @@ img {
     -ms-transform: rotate(7deg);
     transform: rotate(7deg);
     z-index: 5; }
+  .histoire-body .row .photos a:nth-child(6) {
+    margin-top: 267px;
+    margin-left: -85px;
+    -moz-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    transform: rotate(-7deg);
+    z-index: 5; }
   .histoire-body .row .photos a:hover {
     -moz-transform: rotate(-3deg);
     -webkit-transform: rotate(-3deg);
