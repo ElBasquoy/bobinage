@@ -1,0 +1,68 @@
+
+.vente-body{
+  .title-quality{
+    text-align: center;
+    color: $brand-success;
+    font-size: 2em;
+    margin: 2em 0 1em 0;
+  }
+  .vente-info{
+    margin: 3em 0;
+    .vente-description{
+      color: $gray-darker;
+        font-size: 1.1em;
+    }
+    .title-vente{
+      text-align: center;
+      color: $brand-success;
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+  }
+  .list-vente  {
+    min-height: 800px;
+    .info{
+      margin: 1em 0;
+      color: $gray-darker;
+      font-size: 1.1em
+    }
+    .title{
+      font-size: 1.4em;
+      color: $brand-success;
+      margin: 2em 0 0.5em 0;
+    }
+    .row{
+      padding-bottom: 2em;
+      .title-col{
+        color: $brand-success-light;
+      }
+    }
+    .background-techno{
+      background: url(img/vente-background.jpg) no-repeat right;
+      opacity: 0.2;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+      right: 18em;
+      left: 0;
+    }
+    .background-vente-jetly{
+      background: url(img/vente-backgounrd-jetly.jpg) no-repeat center;
+      -webkit-background-size: cover;
+      background-size: cover;
+      opacity: 0.2;
+      height: 960px;
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      left: 0;
+    }
+    .description-col{
+      color: $gray-darker;
+      margin: 0.5em 0 0 1em;
+      .glyphicon{
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
