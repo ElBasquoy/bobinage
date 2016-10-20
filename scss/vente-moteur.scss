@@ -1,5 +1,5 @@
 
-.vente-body{
+.vente-moteur-body{
   .title-quality{
     text-align: center;
     color: $brand-success;
@@ -38,23 +38,12 @@
       }
     }
     .background-techno{
-      background: url(img/vente-background.jpg) no-repeat right;
+      background: url(img/vente-pompe-4.jpg) no-repeat right;
       opacity: 0.2;
       height: 100%;
       position: absolute;
       z-index: -1;
       right: 18em;
-      left: 0;
-    }
-    .background-vente-jetly{
-      background: url(img/vente-backgounrd-jetly.jpg) no-repeat center;
-      -webkit-background-size: cover;
-      background-size: cover;
-      opacity: 0.2;
-      height: 960px;
-      position: absolute;
-      z-index: -1;
-      right: 0;
       left: 0;
     }
     .description-col{

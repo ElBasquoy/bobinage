@@ -238,8 +238,8 @@ th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(".../bobinage/node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../bobinage/node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../bobinage/node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../bobinage/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../bobinage/node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../bobinage/node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 .glyphicon {
   position: relative;
@@ -6084,114 +6084,94 @@ img {
   margin-left: 50%;
   margin-top: 9%; }
 
-.vente-body .title-quality {
+.vente-pompe-body .title-quality {
   text-align: center;
   color: #5cb85c;
   font-size: 2em;
   margin: 2em 0 1em 0; }
 
-.vente-body .vente-info {
+.vente-pompe-body .vente-info {
   margin: 3em 0; }
-  .vente-body .vente-info .vente-description {
+  .vente-pompe-body .vente-info .vente-description {
     color: #646464;
     font-size: 1.1em; }
-  .vente-body .vente-info .title-vente {
+  .vente-pompe-body .vente-info .title-vente {
     text-align: center;
     color: #5cb85c;
     font-size: 2em;
     margin-bottom: 1em; }
 
-.vente-body .list-vente {
+.vente-pompe-body .list-vente {
   min-height: 800px; }
-  .vente-body .list-vente .info {
+  .vente-pompe-body .list-vente .info {
     margin: 1em 0;
     color: #646464;
     font-size: 1.1em; }
-  .vente-body .list-vente .title {
+  .vente-pompe-body .list-vente .title {
     font-size: 1.4em;
     color: #5cb85c;
     margin: 2em 0 0.5em 0; }
-  .vente-body .list-vente .row {
+  .vente-pompe-body .list-vente .row {
     padding-bottom: 2em; }
-    .vente-body .list-vente .row .title-col {
+    .vente-pompe-body .list-vente .row .title-col {
       color: #04A9A0; }
-  .vente-body .list-vente .background-techno {
-    background: url(img/vente-background.jpg) no-repeat right;
+  .vente-pompe-body .list-vente .background-pompe {
+    background: url(img/vente-pompe-4.jpg) no-repeat right;
     opacity: 0.2;
     height: 100%;
     position: absolute;
     z-index: -1;
     right: 18em;
     left: 0; }
-  .vente-body .list-vente .background-vente-jetly {
-    background: url(img/vente-backgounrd-jetly.jpg) no-repeat center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    opacity: 0.2;
-    height: 960px;
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    left: 0; }
-  .vente-body .list-vente .description-col {
+  .vente-pompe-body .list-vente .description-col {
     color: #646464;
     margin: 0.5em 0 0 1em; }
-    .vente-body .list-vente .description-col .glyphicon {
+    .vente-pompe-body .list-vente .description-col .glyphicon {
       margin-right: 0.5em; }
 
-.vente-body .title-quality {
+.vente-moteur-body .title-quality {
   text-align: center;
   color: #5cb85c;
   font-size: 2em;
   margin: 2em 0 1em 0; }
 
-.vente-body .vente-info {
+.vente-moteur-body .vente-info {
   margin: 3em 0; }
-  .vente-body .vente-info .vente-description {
+  .vente-moteur-body .vente-info .vente-description {
     color: #646464;
     font-size: 1.1em; }
-  .vente-body .vente-info .title-vente {
+  .vente-moteur-body .vente-info .title-vente {
     text-align: center;
     color: #5cb85c;
     font-size: 2em;
     margin-bottom: 1em; }
 
-.vente-body .list-vente {
+.vente-moteur-body .list-vente {
   min-height: 800px; }
-  .vente-body .list-vente .info {
+  .vente-moteur-body .list-vente .info {
     margin: 1em 0;
     color: #646464;
     font-size: 1.1em; }
-  .vente-body .list-vente .title {
+  .vente-moteur-body .list-vente .title {
     font-size: 1.4em;
     color: #5cb85c;
     margin: 2em 0 0.5em 0; }
-  .vente-body .list-vente .row {
+  .vente-moteur-body .list-vente .row {
     padding-bottom: 2em; }
-    .vente-body .list-vente .row .title-col {
+    .vente-moteur-body .list-vente .row .title-col {
       color: #04A9A0; }
-  .vente-body .list-vente .background-techno {
-    background: url(img/vente-background.jpg) no-repeat right;
+  .vente-moteur-body .list-vente .background-techno {
+    background: url(img/vente-pompe-4.jpg) no-repeat right;
     opacity: 0.2;
     height: 100%;
     position: absolute;
     z-index: -1;
     right: 18em;
     left: 0; }
-  .vente-body .list-vente .background-vente-jetly {
-    background: url(img/vente-backgounrd-jetly.jpg) no-repeat center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    opacity: 0.2;
-    height: 960px;
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    left: 0; }
-  .vente-body .list-vente .description-col {
+  .vente-moteur-body .list-vente .description-col {
     color: #646464;
     margin: 0.5em 0 0 1em; }
-    .vente-body .list-vente .description-col .glyphicon {
+    .vente-moteur-body .list-vente .description-col .glyphicon {
       margin-right: 0.5em; }
 
 .histoire-body .background-history {
