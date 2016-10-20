@@ -241,6 +241,7 @@ th {
   src: url(".../bobinage/node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
   src: url("../bobinage/node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../bobinage/node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../bobinage/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../bobinage/node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../bobinage/node_modules/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
+
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5874,7 +5875,7 @@ img {
   min-height: 800px; }
 
 .index-body .carousel-caption span {
-  color: #04A9A0;
+  color: #5cb85c;
   display: block;
   padding-top: 1em;
   font-size: 80%; }
@@ -5958,7 +5959,7 @@ img {
 
 .index-body .contact-us .find-contact {
   background: url(img/find-contact.png) 0 0 no-repeat;
-  height: 350px;
+  height: 400px;
   position: relative;
   margin-left: 50%;
   margin-top: 9%; }
@@ -6079,32 +6080,65 @@ img {
 
 .contact-us .find-contact {
   background: url(img/find-contact.png) 0 0 no-repeat;
-  height: 350px;
+  height: 400px;
   position: relative;
   margin-left: 50%;
   margin-top: 9%; }
 
-.vente-body .title-general {
+.vente-body .title-quality {
   text-align: center;
   color: #5cb85c;
   font-size: 2em;
-  margin: 2em 0; }
+  margin: 2em 0 1em 0; }
 
-.vente-body .vente-template {
-  margin-bottom: 4em; }
-  .vente-body .vente-template .vente-title {
-    font-size: 1.4em;
-    color: #5cb85c; }
-  .vente-body .vente-template .vente-description {
+.vente-body .vente-info {
+  margin: 3em 0; }
+  .vente-body .vente-info .vente-description {
     color: #646464;
     font-size: 1.1em; }
-  .vente-body .vente-template img {
-    margin: 2em 0; }
+  .vente-body .vente-info .title-vente {
+    text-align: center;
+    color: #5cb85c;
+    font-size: 2em;
+    margin-bottom: 1em; }
 
-.vente-body .info-description {
-  color: #646464;
-  font-size: 1.1em;
-  margin-bottom: 2em; }
+.vente-body .list-vente {
+  min-height: 800px; }
+  .vente-body .list-vente .info {
+    margin: 1em 0;
+    color: #646464;
+    font-size: 1.1em; }
+  .vente-body .list-vente .title {
+    font-size: 1.4em;
+    color: #5cb85c;
+    margin: 2em 0 0.5em 0; }
+  .vente-body .list-vente .row {
+    padding-bottom: 2em; }
+    .vente-body .list-vente .row .title-col {
+      color: #04A9A0; }
+  .vente-body .list-vente .background-techno {
+    background: url(img/vente-background.jpg) no-repeat right;
+    opacity: 0.2;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    right: 18em;
+    left: 0; }
+  .vente-body .list-vente .background-vente-jetly {
+    background: url(img/vente-backgounrd-jetly.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+    height: 960px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    left: 0; }
+  .vente-body .list-vente .description-col {
+    color: #646464;
+    margin: 0.5em 0 0 1em; }
+    .vente-body .list-vente .description-col .glyphicon {
+      margin-right: 0.5em; }
 
 .histoire-body .background-history {
   background: url(img/histoire-background2.jpg) no-repeat center;
@@ -6184,3 +6218,25 @@ img {
     -webkit-transform: rotate(-3deg);
     -ms-transform: rotate(-3deg);
     transform: rotate(-3deg); }
+
+.vente-body .title-general {
+  text-align: center;
+  color: #5cb85c;
+  font-size: 2em;
+  margin: 2em 0; }
+
+.vente-body .vente-template {
+  margin-bottom: 4em; }
+  .vente-body .vente-template .vente-title {
+    font-size: 1.4em;
+    color: #5cb85c; }
+  .vente-body .vente-template .vente-description {
+    color: #646464;
+    font-size: 1.1em; }
+  .vente-body .vente-template img {
+    margin: 2em 0; }
+
+.vente-body .info-description {
+  color: #646464;
+  font-size: 1.1em;
+  margin-bottom: 2em; }
