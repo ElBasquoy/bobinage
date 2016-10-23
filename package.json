@@ -8,12 +8,14 @@
     "jquery": "^3.1.1"
   },
   "scripts": {
-    "start": "npm run sass & npm run watch",
+    "start": "npm run sass & npm run server & npm run watch",
     "watch": "watch -p '**/*.scss' -c 'npm run sass'",
     "sass": "node-sass style.scss style.css",
-    "imagemin": "imagemin img/* --out-dir img"
+    "imagemin": "imagemin img/* --out-dir img",
+    "server": "http-server ./ -o -s --cors -c-1"
   },
   "devDependencies": {
+    "http-server": "^0.9.0",
     "imagemin-cli": "^3.0.0",
     "node-sass": "^3.10.1",
     "watch-cli": "^0.2.1"

@@ -1,5 +1,7 @@
 # gonzalez-bobinage
 
+![NPM dependencies](https://david-dm.org/ElBasquoy/bobinage.svg)
+
 ## Installation
 
 `npm install`

@@ -1,6 +1,7 @@
-@import "./node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "./scss/_variables";
-@import "./scss/_global";
+@import "./node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "./node_modules/fancybox/dist/scss/jquery.fancybox.scss";
+@import "./scss/global";
 @import "./scss/index.scss";
 @import "./scss/quality.scss";
 @import "./scss/activity.scss";
