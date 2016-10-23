@@ -10,9 +10,11 @@
   "scripts": {
     "start": "npm run sass & npm run watch",
     "watch": "watch -p '**/*.scss' -c 'npm run sass'",
-    "sass": "node-sass style.scss style.css"
+    "sass": "node-sass style.scss style.css",
+    "imagemin": "imagemin img/* --out-dir img"
   },
   "devDependencies": {
+    "imagemin-cli": "^3.0.0",
     "node-sass": "^3.10.1",
     "watch-cli": "^0.2.1"
   }
