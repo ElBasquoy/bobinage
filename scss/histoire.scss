@@ -1,0 +1,92 @@
+
+.histoire-body  {
+  .background-history{
+    background: url(img/histoire-background.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    left: 0;
+  }
+  .info {
+    padding: 16% 3% 10% 0;
+    color: $brand-success-light;
+    font-size: 1.2em;
+  }
+  .row{
+     padding-top: 2em;
+    .photos {
+      a{
+        position: absolute;
+        -webkit-transition: all 0.3s ease !important;
+        -moz-transition: all 0.3s ease !important;
+        -ms-transition: all 0.3s ease !important;
+        transition: all 0.3s ease !important;
+      }
+      a:first-child{
+        margin-top: 7em;
+        margin-left: 5em;
+        -moz-transform: rotate(-3deg);
+        -webkit-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+        z-index: 1;
+        width: 60%;
+      }
+      a:nth-child(2){
+        margin-top: 4em;
+        margin-left: 25em;
+        -moz-transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        -ms-transform: rotate(4deg);
+        transform: rotate(4deg);
+        z-index: 2;
+      }
+      a:nth-child(3){
+        margin-top: 14em;
+        margin-left: 28em;
+        -moz-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        -ms-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+        z-index: 3;
+      }
+      a:nth-child(4){
+        margin-top: 24em;
+        margin-left: 21em;
+        -moz-transform: rotate(4deg);
+        -webkit-transform: rotate(4deg);
+        -ms-transform: rotate(4deg);
+        transform: rotate(4deg);
+        z-index: 4;
+      }
+      a:nth-child(5){
+        margin-top: 29em;
+        margin-left: 7em;
+        -moz-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        -ms-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+        z-index: 5;
+      }
+      a:nth-child(6){
+        margin-top: 26em;
+        margin-left: -5em;
+        -moz-transform: rotate(7deg);
+        -webkit-transform: rotate(7deg);
+        -ms-transform: rotate(7deg);
+        transform: rotate(7deg);
+        z-index: 5;
+      }
+      a:hover{
+        -moz-transform: rotate(-3deg);
+        -webkit-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+      }
+    }
+  }
+}

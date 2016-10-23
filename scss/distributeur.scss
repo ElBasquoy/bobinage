@@ -1,0 +1,28 @@
+
+.distributeur-body {
+  .title-general{
+    text-align: center;
+    color: $brand-success;
+    font-size: 2em;
+    margin: 2em 0;
+  }
+  .distributeur-template {
+    margin-bottom: 4em;
+    .distributeur-title{
+      font-size: 1.4em;
+      color: $brand-success;
+    }
+    .distributeur-description{
+      color: $gray-darker;
+      font-size: 1.1em;
+    }
+    img{
+      margin: 2em 0;
+    }
+  }
+  .info-description{
+    color: $gray-darker;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+  }
+}

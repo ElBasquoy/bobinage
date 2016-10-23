@@ -1,0 +1,42 @@
+.contact-us{
+  .background-contact{
+    background: url(img/contact-background.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+    height: 800px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    left: 0;
+  }
+  .tile-contact{
+    font-size: 150%;
+    padding: 1.5em 0;
+    text-align: center;
+    border-bottom: 1px solid $gray;
+    background: $white;
+    color: $brand-success;
+  }
+  .find-us{
+    margin: 6% 0 0 10%;
+    position: absolute;
+    //background: url(img/findus-mapbackground.png) 0 0 no-repeat;
+    iframe{
+      border: 0;
+      margin: 10% 0 0px 20%;
+      height: 400px;
+      width: 457px;
+      -moz-box-shadow: 10px 10px 5px #656565;
+      -webkit-box-shadow: 10px 10px 5px #656565;
+      box-shadow: 10px 10px 5px #656565;
+    }
+  }
+  .find-contact{
+      background: url(img/find-contact.png) 0 0 no-repeat;
+      height: 400px;
+      position: relative;
+      margin-left: 50%;
+      margin-top: 9%;
+    }
+  }
