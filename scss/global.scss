@@ -27,11 +27,11 @@ header{
     font-size: 140%;
   }
   .btn-block:hover {
-    color:$brand-success;
+    color:$brand-primary;
     text-decoration: none;
   }
   .active, header .active:hover{
-    color: $brand-success;
+    color: $brand-primary;
   }
   .logo-atelier{
     span{
@@ -40,22 +40,13 @@ header{
   }
 }
 a{
-	cursor:pointer;
+	cursor: pointer;
 }
 a:hover{
 	text-decoration: none;
 }
 button.btn.btn-default.dropdown-toggle{
 	float: right;
-}
-.carousel-caption{
-    top: 10%;
-    font-size: 3em;
-    color: $brand-success;
-    text-align: center;
-}
-.text-center{
-  text-align: center
 }
 img{
   border-radius: 5px;

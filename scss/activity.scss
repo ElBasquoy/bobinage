@@ -2,19 +2,19 @@
 .activity-body{
   .title-quality{
     text-align: center;
-    color: $brand-success;
+    color: $brand-primary;
     font-size: 2em;
     margin: 2em 0 1em 0;
   }
   .activity-info{
     margin: 3em 0;
     .activity-description{
-      color: $gray-darker;
+      color: $gray-dark;
         font-size: 1.1em;
     }
     .title-activity{
       text-align: center;
-      color: $brand-success;
+      color: $brand-primary;
       font-size: 2em;
       margin-bottom: 1em;
     }
@@ -23,18 +23,18 @@
     min-height: 700px;
     .info{
       margin: 1em 0;
-      color: $gray-darker;
+      color: $gray-dark;
       font-size: 1.1em
     }
     .title{
       font-size: 1.4em;
-      color: $brand-success;
+      color: $brand-primary;
       margin: 8em 0 0.5em 0;
     }
     .row{
       padding-bottom: 2em;
       .title-col{
-        color: $brand-success-light;
+        color: $brand-secondary;
       }
     }
     .background-techno{
@@ -49,7 +49,7 @@
       left: 0;
     }
     .description-col{
-      color: $gray-darker;
+      color: $gray-dark;
       margin: 0.5em 0 0 1em;
       .glyphicon{
         margin-right: 0.5em;

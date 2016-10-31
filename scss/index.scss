@@ -4,12 +4,23 @@
     min-height: 800px;
   }
   .carousel-caption{
+    top: 10%;
+    font-size: 3em;
+    color: $brand-primary;
+    text-align: center;
+    text-shadow: 1px 0 0 #fff, -1px 0 0 #FFF, 0 1px 0 #fff, 0 -1px 0 #fff;
+    line-height: 1.3em;
     span{
-      color: $brand-success;
       display: block;
       padding-top: 1em;
       font-size: 80%;
     }
+  }
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
   }
   .history{
     padding: 10% 0;
@@ -25,7 +36,7 @@
       width: 200px;
     }
     .title{
-      color: $brand-success;
+      color: $brand-primary;
       font-size: 2em;
       padding-bottom: 0.2em;
     }
@@ -33,7 +44,7 @@
   .activity {
     background: $gray-light;
     .title{
-      color: $brand-success;
+      color: $brand-primary;
       font-size: 2em;
       padding: 3em 0 2em 0;
       text-align: center
@@ -54,7 +65,7 @@
     margin-bottom: 10%;
   }
   .history .description, .activity .description{
-    color: $gray-darker;
+    color: $gray-dark;
     font-size: 110%;
   }
   .trust{

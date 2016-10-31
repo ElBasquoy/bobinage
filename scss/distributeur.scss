@@ -2,7 +2,7 @@
 .distributeur-body {
   .title-general{
     text-align: center;
-    color: $brand-success;
+    color: $brand-primary;
     font-size: 2em;
     margin: 2em 0;
   }
@@ -10,10 +10,10 @@
     margin-bottom: 4em;
     .distributeur-title{
       font-size: 1.4em;
-      color: $brand-success;
+      color: $brand-primary;
     }
     .distributeur-description{
-      color: $gray-darker;
+      color: $gray-dark;
       font-size: 1.1em;
     }
     img{
@@ -21,7 +21,7 @@
     }
   }
   .info-description{
-    color: $gray-darker;
+    color: $gray-dark;
     font-size: 1.1em;
     margin-bottom: 2em;
   }
