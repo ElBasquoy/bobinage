@@ -10,9 +10,9 @@
   "scripts": {
     "start": "npm run sass & npm run server & npm run watch",
     "watch": "watch -p 'scss/*.scss' -c 'npm run sass'",
-    "sass": "node-sass scss/main.scss public/style.css",
-    "imagemin": "imagemin public/img/* --out-dir public/img",
-    "server": "http-server -o -s --cors -c-1"
+    "sass": "node-sass scss/main.scss docs/style.css",
+    "imagemin": "imagemin docs/img/* --out-dir docs/img",
+    "server": "http-server ./docs -o -s --cors -c-1"
   },
   "devDependencies": {
     "http-server": "^0.9.0",
