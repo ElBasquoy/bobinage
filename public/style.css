@@ -6364,6 +6364,51 @@ img {
     .vente-pompe-body .list-vente .description-col .glyphicon {
       margin-right: 0.5em; }
 
+.vente-groupe-body .title-quality {
+  text-align: center;
+  color: #049262;
+  font-size: 2em;
+  margin: 2em 0 1em 0; }
+
+.vente-groupe-body .vente-info {
+  margin: 3em 0; }
+  .vente-groupe-body .vente-info .vente-description {
+    color: #646464;
+    font-size: 1.1em; }
+  .vente-groupe-body .vente-info .title-vente {
+    text-align: center;
+    color: #049262;
+    font-size: 2em;
+    margin-bottom: 1em; }
+
+.vente-groupe-body .list-vente {
+  min-height: 800px; }
+  .vente-groupe-body .list-vente .info {
+    margin: 1em 0;
+    color: #646464;
+    font-size: 1.1em; }
+  .vente-groupe-body .list-vente .title {
+    font-size: 1.4em;
+    color: #049262;
+    margin: 2em 0 0.5em 0; }
+  .vente-groupe-body .list-vente .row {
+    padding-bottom: 2em; }
+    .vente-groupe-body .list-vente .row .title-col {
+      color: #04A9A0; }
+  .vente-groupe-body .list-vente .background-techno {
+    background: url(img/vente-moteur-roulement.jpg) no-repeat right;
+    opacity: 0.2;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    right: 18em;
+    left: 0; }
+  .vente-groupe-body .list-vente .description-col {
+    color: #646464;
+    margin: 0.5em 0 0 1em; }
+    .vente-groupe-body .list-vente .description-col .glyphicon {
+      margin-right: 0.5em; }
+
 .vente-moteur-body .title-quality {
   text-align: center;
   color: #049262;
