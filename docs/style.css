@@ -6214,59 +6214,59 @@ img {
   .index-body .partners img {
     width: 140px; } }
 
-.quality-body .title-quality {
+.qualite-body .title-qualite {
   text-align: center;
   color: #049262;
   font-size: 2em;
   margin: 2em 0 1em 0; }
 
-.quality-body .quality-template {
+.qualite-body .qualite-template {
   margin-bottom: 4em; }
-  .quality-body .quality-template .quality-title {
+  .qualite-body .qualite-template .qualite-title {
     font-size: 1.4em;
     color: #049262; }
-  .quality-body .quality-template .quality-description {
+  .qualite-body .qualite-template .qualite-description {
     color: #646464;
     font-size: 1.1em; }
 
-.quality-body .info-description {
+.qualite-body .info-description {
   color: #646464;
   font-size: 1.1em;
   margin-bottom: 2em; }
 
-.activity-body .title-quality {
+.maintenance-body .title-quality {
   text-align: center;
   color: #049262;
   font-size: 2em;
   margin: 2em 0 1em 0; }
 
-.activity-body .activity-info {
+.maintenance-body .maintenance-info {
   margin: 3em 0; }
-  .activity-body .activity-info .activity-description {
+  .maintenance-body .maintenance-info .maintenance-description {
     color: #646464;
     font-size: 1.1em; }
-  .activity-body .activity-info .title-activity {
+  .maintenance-body .maintenance-info .title-maintenance {
     text-align: center;
     color: #049262;
     font-size: 2em;
     margin-bottom: 1em; }
 
-.activity-body .list-activity {
+.maintenance-body .list-maintenance {
   min-height: 700px; }
-  .activity-body .list-activity .info {
+  .maintenance-body .list-maintenance .info {
     margin: 1em 0;
     color: #646464;
     font-size: 1.1em; }
-  .activity-body .list-activity .title {
+  .maintenance-body .list-maintenance .title {
     font-size: 1.4em;
     color: #049262;
     margin: 8em 0 0.5em 0; }
-  .activity-body .list-activity .row {
+  .maintenance-body .list-maintenance .row {
     padding-bottom: 2em; }
-    .activity-body .list-activity .row .title-col {
+    .maintenance-body .list-maintenance .row .title-col {
       color: #04A9A0; }
-  .activity-body .list-activity .background-techno {
-    background: url(img/activity-background-schema.jpg) no-repeat center;
+  .maintenance-body .list-maintenance .background-techno {
+    background: url(img/maintenance-background-schema.jpg) no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
     opacity: 0.2;
@@ -6275,10 +6275,20 @@ img {
     z-index: -1;
     right: 0;
     left: 0; }
-  .activity-body .list-activity .description-col {
+  .maintenance-body .list-maintenance .background-stator {
+    background: url(img/maintenance-background-stator.jpg) no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 0.2;
+    height: 700px;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    left: 0; }
+  .maintenance-body .list-maintenance .description-col {
     color: #646464;
     margin: 0.5em 0 0 1em; }
-    .activity-body .list-activity .description-col .glyphicon {
+    .maintenance-body .list-maintenance .description-col .glyphicon {
       margin-right: 0.5em; }
 
 .contact-us .background-contact {
@@ -6396,7 +6406,7 @@ img {
     .vente-groupe-body .list-vente .row .title-col {
       color: #04A9A0; }
   .vente-groupe-body .list-vente .background-techno {
-    background: url(img/background-generateur.png) no-repeat right;
+    background: url(img/vente-groupe-background.png) no-repeat right;
     opacity: 0.2;
     height: 100%;
     position: absolute;
@@ -6454,12 +6464,58 @@ img {
     .vente-moteur-body .list-vente .description-col .glyphicon {
       margin-right: 0.5em; }
 
+.vente-compresseur-body .title-quality {
+  text-align: center;
+  color: #049262;
+  font-size: 2em;
+  margin: 2em 0 1em 0; }
+
+.vente-compresseur-body .vente-info {
+  margin: 3em 0; }
+  .vente-compresseur-body .vente-info .vente-description {
+    color: #646464;
+    font-size: 1.1em; }
+  .vente-compresseur-body .vente-info .title-vente {
+    text-align: center;
+    color: #049262;
+    font-size: 2em;
+    margin-bottom: 1em; }
+
+.vente-compresseur-body .list-vente {
+  min-height: 800px; }
+  .vente-compresseur-body .list-vente .info {
+    margin: 1em 0;
+    color: #646464;
+    font-size: 1.1em; }
+  .vente-compresseur-body .list-vente .title {
+    font-size: 1.4em;
+    color: #049262;
+    margin: 2em 0 0.5em 0; }
+  .vente-compresseur-body .list-vente .row {
+    padding-bottom: 2em; }
+    .vente-compresseur-body .list-vente .row .title-col {
+      color: #04A9A0; }
+  .vente-compresseur-body .list-vente .background-pompe {
+    margin-top: 5%;
+    background: url(img/vente-compresseur-background.jpg) no-repeat right;
+    opacity: 0.2;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    right: 18em;
+    left: 0; }
+  .vente-compresseur-body .list-vente .description-col {
+    color: #646464;
+    margin: 0.5em 0 0 1em; }
+    .vente-compresseur-body .list-vente .description-col .glyphicon {
+      margin-right: 0.5em; }
+
 .histoire-body .background-history {
   background: url(img/histoire-background.jpg) no-repeat center;
   -webkit-background-size: cover;
   background-size: cover;
   opacity: 0.2;
-  height: 800px;
+  height: 900px;
   position: absolute;
   z-index: -1;
   right: 0;

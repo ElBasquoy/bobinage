@@ -1,25 +1,25 @@
 
-.activity-body{
+.maintenance-body{
   .title-quality{
     text-align: center;
     color: $brand-primary;
     font-size: 2em;
     margin: 2em 0 1em 0;
   }
-  .activity-info{
+  .maintenance-info{
     margin: 3em 0;
-    .activity-description{
+    .maintenance-description{
       color: $gray-dark;
         font-size: 1.1em;
     }
-    .title-activity{
+    .title-maintenance{
       text-align: center;
       color: $brand-primary;
       font-size: 2em;
       margin-bottom: 1em;
     }
   }
-  .list-activity  {
+  .list-maintenance  {
     min-height: 700px;
     .info{
       margin: 1em 0;
@@ -38,9 +38,20 @@
       }
     }
     .background-techno{
-      background: url(img/activity-background-schema.jpg) no-repeat center;
+      background: url(img/maintenance-background-schema.jpg) no-repeat center;
       -webkit-background-size: cover;
       background-size: cover;
+      opacity: 0.2;
+      height: 700px;
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      left: 0;
+    }
+    .background-stator{
+      background: url(img/maintenance-background-stator.jpg) no-repeat center;
+      -webkit-background-size: contain;
+      background-size: contain;
       opacity: 0.2;
       height: 700px;
       position: absolute;
