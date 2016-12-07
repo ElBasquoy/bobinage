@@ -6066,18 +6066,18 @@ button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
   display: block;
   margin-top: 0; }
 
-.header {
+header {
   background: #5373b1;
   padding: 1.5em 1em; }
-  .header .btn-block {
+  header .btn-block {
     color: #FFFFFF;
     font-size: 140%; }
-  .header .btn-block:hover {
+  header .btn-block:hover {
     color: #049262;
     text-decoration: none; }
-  .header .active, .header .header .active:hover {
+  header .active, header header .active:hover {
     color: #049262; }
-  .header .logo-atelier span {
+  header .logo-atelier span {
     color: #FFFFFF; }
 
 a {
