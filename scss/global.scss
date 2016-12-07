@@ -18,7 +18,7 @@ button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
   display: block;
   margin-top: 0;
 }
-header{
+.header{
   background: -webkit-linear-gradient(#15193e 50%, #5373b1);
   background: linear-gradient(#15193e 50%, #5373b1);
 	padding: 1.5em 1em;
@@ -30,7 +30,7 @@ header{
     color:$brand-primary;
     text-decoration: none;
   }
-  .active, header .active:hover{
+  .active, .header .active:hover{
     color: $brand-primary;
   }
   .logo-atelier{
