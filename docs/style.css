@@ -6085,7 +6085,8 @@ header {
   header .active, header header .active:hover {
     color: #049262; }
   header .logo-atelier span {
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    font-size: 90%; }
 
 a {
   cursor: pointer; }
