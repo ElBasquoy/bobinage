@@ -6076,6 +6076,14 @@ header {
   background: -webkit-linear-gradient(#15193e 50%, #5373b1);
   background: linear-gradient(#15193e 50%, #5373b1);
   padding: 1.5em 1em; }
+  @media (max-width: 768px) {
+    header {
+      padding: 1em; }
+      header .btn-group {
+        float: right;
+        margin-top: 10px; }
+      header .logo-atelier {
+        float: left; } }
   header .btn-block {
     color: #FFFFFF;
     font-size: 140%; }
@@ -6136,6 +6144,15 @@ img {
     color: #049262;
     font-size: 2em;
     padding-bottom: 0.2em; }
+  @media (max-width: 768px) {
+    .index-body .history {
+      text-align: center; }
+      .index-body .history > div:first-child {
+        margin-bottom: 20px; }
+      .index-body .history .title {
+        font-size: 1.5em; }
+      .index-body .history .description {
+        font-size: 95%; } }
 
 .index-body .activity {
   background: #F7F7F7; }
@@ -6150,6 +6167,19 @@ img {
     text-align: justify; }
   .index-body .activity img {
     margin-bottom: 1em; }
+  @media (max-width: 768px) {
+    .index-body .activity {
+      text-align: center; }
+      .index-body .activity > div:first-child {
+        margin-bottom: 20px; }
+      .index-body .activity .title {
+        font-size: 1.5em;
+        padding: 2em 0 0 0; }
+      .index-body .activity img {
+        margin-bottom: 1em;
+        margin-top: 2em; }
+      .index-body .activity .description {
+        font-size: 95%; } }
 
 .index-body .how-work-motor {
   padding-top: 0;
@@ -6208,10 +6238,6 @@ img {
 @media (max-width: 768px) {
   .index-body .partners {
     text-align: center; }
-  .index-body .template .history {
-    text-align: center; }
-    .index-body .template .history img {
-      margin-bottom: 1em; }
   .index-body .find-contact {
     margin-left: 5%; }
   .index-body .background-contact {
