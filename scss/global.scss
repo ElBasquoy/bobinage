@@ -19,11 +19,7 @@ button.btn.btn-default.dropdown-toggle:hover .dropdown-menu {
   margin-top: 0;
 }
 header{
-  background: -webkit-linear-gradient(#15193e 50%, #5373b1); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
-  background: -moz-linear-gradient(#15193e 50%, #5373b1); /* For Firefox (3.6 to 15) */
-  background: -o-linear-gradient(#15193e 50%, #5373b1); /* For old Opera (11.1 to 12.0) */
-  background: -webkit-linear-gradient(#15193e 50%, #5373b1);
-  background: linear-gradient(#15193e 50%, #5373b1);
+  background: #15193e;
 	padding: 1.5em 1em;
   @media (max-width: 768px) {
     padding: 1em;
