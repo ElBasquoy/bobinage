@@ -6334,7 +6334,8 @@ img {
   text-align: center;
   border-bottom: 1px solid #CCC;
   background: #FFFFFF;
-  color: #049262; }
+  color: #049262;
+  margin: 0; }
 
 .contact-us .find-us {
   margin: 6% 0 0 10%;
