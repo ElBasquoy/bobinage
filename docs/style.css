@@ -6361,17 +6361,50 @@ img {
   color: #049262;
   margin: 0; }
 
-.contact-us .find-us {
-  margin: 6% 0 0 10%;
-  position: absolute; }
-  .contact-us .find-us iframe {
-    border: 0;
-    margin: 10% 0 0px 20%;
-    height: 400px;
-    width: 457px;
-    -moz-box-shadow: 10px 10px 5px #656565;
-    -webkit-box-shadow: 10px 10px 5px #656565;
-    box-shadow: 10px 10px 5px #656565; }
+.contact-us .find-us iframe {
+  border: 0;
+  margin: 10% 0 0px 20%;
+  height: 400px;
+  width: 457px;
+  -moz-box-shadow: 10px 10px 5px #656565;
+  -webkit-box-shadow: 10px 10px 5px #656565;
+  box-shadow: 10px 10px 5px #656565; }
+
+.contact-us .share-contact {
+  background-color: rgba(120, 120, 130, 0.5);
+  color: black;
+  width: 400px;
+  position: relative;
+  margin-left: 20%;
+  margin-top: 15%;
+  border-radius: 10px; }
+  .contact-us .share-contact a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 20px; }
+  .contact-us .share-contact .title {
+    font-size: 140%;
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%; }
+  .contact-us .share-contact .horaire {
+    font-size: 140%; }
+    .contact-us .share-contact .horaire .clock {
+      margin-left: 10%; }
+      .contact-us .share-contact .horaire .clock .info {
+        font-size: 90%; }
+  .contact-us .share-contact .info-add {
+    font-size: 120%; }
+    .contact-us .share-contact .info-add .title {
+      padding-bottom: 0; }
+    .contact-us .share-contact .info-add .comp {
+      padding-left: 15%; }
+  @media (max-width: 768px) {
+    .contact-us .share-contact {
+      margin-left: 5%;
+      margin-top: 5%;
+      width: auto; } }
 
 .contact-us .find-contact {
   background: url(img/find-contact.png) 0 0 no-repeat;

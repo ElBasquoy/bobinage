@@ -20,9 +20,6 @@
     margin: 0
   }
   .find-us{
-    margin: 6% 0 0 10%;
-    position: absolute;
-    //background: url(img/findus-mapbackground.png) 0 0 no-repeat;
     iframe{
       border: 0;
       margin: 10% 0 0px 20%;
@@ -31,6 +28,50 @@
       -moz-box-shadow: 10px 10px 5px #656565;
       -webkit-box-shadow: 10px 10px 5px #656565;
       box-shadow: 10px 10px 5px #656565;
+    }
+  }
+  .share-contact{
+    background-color: rgba(120, 120, 130, 0.5);
+    color: black;
+    width: 400px;
+    position: relative;
+    margin-left: 20%;
+    margin-top: 15%;
+    border-radius: 10px;
+    a{
+      color: black;
+      text-decoration: none;
+      display: block;
+      padding-bottom: 20px
+    }
+    .title{
+      font-size: 140%;
+      margin-left: 5%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
+    .horaire{
+      font-size: 140%;
+      .clock{
+        margin-left: 10%;
+        .info{
+          font-size: 90%
+        }
+      }
+    }
+    .info-add{
+      font-size: 120%;
+      .title{
+        padding-bottom: 0;
+      }
+      .comp{
+        padding-left: 15%
+      }
+    }
+    @media (max-width: 768px) {
+      margin-left: 5%;
+      margin-top: 5%;
+      width: auto
     }
   }
   .find-contact{
